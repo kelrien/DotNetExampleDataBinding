@@ -51,7 +51,7 @@ namespace WpfBindingExample
 
     public partial class MainWindow : Window
     {
-        public ObservableCollection<TextFileObject> _source { get; set; }
+        private ObservableCollection<TextFileObject> _source;
 
         public MainWindow()
         {
